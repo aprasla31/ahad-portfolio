@@ -258,6 +258,7 @@ column-gap: 3.25rem;
 .home__name {
   font-size: 2.5rem;
   color: #333;
+  margin-top: 16px;
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
