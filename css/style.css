@@ -967,7 +967,7 @@ column-gap: 3.25rem;
   bottom: 34%;
   left: 0;
   font-family: var(--mono-font);
-  /* color: #fff; */
+  color: #fff; 
 }
 
 /* Show success message */
