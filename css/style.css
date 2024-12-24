@@ -768,7 +768,7 @@ column-gap: 3.25rem;
 
 /* Testimonial Background */
 .testimonial__bg {
-  background: url("../img/bg.jpg") no-repeat center center;
+  /*background: url("../img/bg.jpg") no-repeat center center; */
   background-size: cover;
   background-position: 50%;
   position: relative;
