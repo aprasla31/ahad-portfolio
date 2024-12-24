@@ -1,8 +1,5 @@
 :root {
   --primary-color: #077bff;
   --primary-color-alt: #077bff;
-  --linear-gradient: linear-gradient(
-    54deg,
-    rgba(254, 254, 254, 0.95) 34%,
-    rgba(255, 255, 255, 0.95) );
+  
 }
