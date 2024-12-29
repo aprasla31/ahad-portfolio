@@ -569,13 +569,15 @@ column-gap: 3.25rem;
 
 /* Skills Container */
 .skills__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   gap: 2rem;
+  align-items: flex-start;
 }
 
 /* Individual Skills Content */
 .skills__content {
+  flex: 1;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -637,24 +639,27 @@ column-gap: 3.25rem;
   border-radius: 5px;
 }
 
-/* Technical Skills Styling */
+/* Align Technical Skills to the Left */
 .skills__content:nth-child(1) {
   border: 2px solid #6a11cb;
+  text-align: left;
 }
 
-/* Soft Skills Styling */
+/* Align Soft Skills to the Right */
 .skills__content:nth-child(2) {
   border: 2px solid #2575fc;
+  text-align: right;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .skills__container {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
   .skills__content {
     max-width: 100%;
+    text-align: center;
   }
 }
 
