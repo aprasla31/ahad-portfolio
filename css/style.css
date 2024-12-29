@@ -867,6 +867,7 @@ column-gap: 3.25rem;
 }
 /*=============== Contact ===============*/
 /* General Contact Section Styling */
+/* General Contact Section Styling */
 .contact {
   padding: 2rem 1rem;
   font-family: 'Arial', sans-serif;
@@ -922,15 +923,21 @@ column-gap: 3.25rem;
 .contact__input {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #007bff;
+  border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 1rem;
   color: #555;
-  transition: border-color 0.3s;
+  transition: border-color 0.3s, background-color 0.3s;
 }
 .contact__input:focus {
   outline: none;
   border-color: #2575fc;
+  background-color: #f0f8ff;
+}
+
+.contact__input:hover {
+  background-color: #f9f9f9;
+  border-color: #aaa;
 }
 
 .contact__input.textarea {
@@ -955,7 +962,7 @@ column-gap: 3.25rem;
 
 .contact__message {
   font-size: 0.9rem;
-  color: #fff;
+  color: #888;
   text-align: center;
   margin-top: 1rem;
 }
@@ -981,9 +988,6 @@ column-gap: 3.25rem;
     flex-direction: column;
   }
 }
-
-
-
 
 /*=============== Blog Details ===============*/
 
