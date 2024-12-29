@@ -867,7 +867,6 @@ column-gap: 3.25rem;
 }
 /*=============== Contact ===============*/
 /* General Contact Section Styling */
-/* General Contact Section Styling */
 .contact {
   padding: 2rem 1rem;
   font-family: 'Arial', sans-serif;
@@ -923,7 +922,7 @@ column-gap: 3.25rem;
 .contact__input {
   width: 100%;
   padding: 0.75rem;
-  border: 1px solid #ddd;
+  border: 1px solid #007bff;
   border-radius: 5px;
   font-size: 1rem;
   color: #555;
