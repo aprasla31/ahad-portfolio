@@ -936,7 +936,7 @@ column-gap: 3.25rem;
 
 .contact__input:hover {
   background-color: #f9f9f9;
-  border-color: #aaa;
+  border-color: #007bff;
 }
 
 .contact__input.textarea {
@@ -961,7 +961,7 @@ column-gap: 3.25rem;
 
 .contact__message {
   font-size: 0.9rem;
-  color: #888;
+  color: #ffffff;
   text-align: center;
   margin-top: 1rem;
 }
@@ -969,8 +969,8 @@ column-gap: 3.25rem;
 .footer__copy {
   text-align: center;
   margin-top: 2rem;
-  font-size: 0.9rem;
-  color: #aaa;
+  font-size: 1.0rem;
+  color: #000000;
 }
 
 /* Responsive Design */
