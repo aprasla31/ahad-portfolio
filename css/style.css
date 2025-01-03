@@ -240,7 +240,7 @@ column-gap: 3.25rem;
   width: 100%;
   max-width: 400px;
   border-radius: 50%;
-  border: 5px solid #007bff;
+  border: 5px solid #0000;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   margin-top: 2rem; /* Additional space between nav and image */
