@@ -1005,3 +1005,9 @@ column-gap: 3.25rem;
 
 /* for small devices */
 @media screen and (max-width: 350px) {}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
