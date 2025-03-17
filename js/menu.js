@@ -31,3 +31,11 @@ document.addEventListener('click', (e) => {
         navbar.classList.remove('active');
     }
 });
+
+// Close menu when clicking on a nav link
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menuIcon.classList.remove('bx-x');
+        navbar.classList.remove('active');
+    });
+});
