@@ -91,7 +91,6 @@ body{
 }
 .section{
     padding: 10rem 12% 10rem;
-    background: inherit; /* Makes sections inherit the full-page gradient */
     width: 100%;
     min-height: 100vh;
 }
