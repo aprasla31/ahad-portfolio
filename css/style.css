@@ -132,7 +132,7 @@ span {
 .home-img img {
     position: relative;
     top:1.5rem;
-    width: 40vw;
+    width: 38vw;
     border-radius: 10%;
 
 }
@@ -672,7 +672,7 @@ textarea.input {
     }
     .home-img img{
         order: 1;
-        width: 56vh;
+        width: 53vh;
     }
     .services h2{
         margin-bottom: 3rem;
