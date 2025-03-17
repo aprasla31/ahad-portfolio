@@ -98,7 +98,6 @@ body{
     align-items: center; 
     justify-content: space-between;
     gap:1rem;
-    background: linear-gradient(to right, rgb(235, 228, 228), rgb(145, 147, 160));
     min-height: 100vh;
 }
 .home-content {
