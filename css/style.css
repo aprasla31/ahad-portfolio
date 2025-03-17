@@ -90,8 +90,10 @@ body{
     display: none;
 }
 .section{
-    min-height: 100vh;
     padding: 10rem 12% 10rem;
+    background: inherit; /* Makes sections inherit the full-page gradient */
+    width: 100%;
+    min-height: 100vh;
 }
 .home {
     display: flex;
@@ -601,6 +603,7 @@ textarea.input {
    }
    section{
        padding: 10rem 3% 2rem;
+       
        
    }
    .timeline-items::before{
