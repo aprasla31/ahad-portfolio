@@ -6,6 +6,7 @@
     text-decoration: none;
     border: none;
     outline: none;
+    background:linear-gradient(to right, rgb(235, 228, 228), rgb(145,147,160));
     background: transparent !important;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
